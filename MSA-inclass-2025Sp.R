@@ -88,7 +88,7 @@ msaPrettyPrint(myFirstAlignment,
                showNames = "left",
                askForOverwrite=FALSE, verbose=FALSE,
                shadingMode = "similar",consensusColors = "BlueRed",
-               showLogo="none",)
+               showLogo="none")
 
 msaPrettyPrint(myFirstAlignment,
                file="COXI-mammals.pdf", output="pdf",
@@ -109,10 +109,6 @@ names(myAASequences)
 
 ## Align sequences ----
 myProteinAlignment <- msa(myAASequences, method ="Muscle", verbose = T)
-
-
-
-BrowseSeqs(myXStringSet = myAASequences)
 
 ### Save alignment as PDF ----
 
