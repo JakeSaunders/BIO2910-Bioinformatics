@@ -6,7 +6,7 @@ Course materials for BIO 2910. Every coding activity in this course runs in
 **[Posit Cloud](https://posit.cloud)** — RStudio in your web browser.
 **You do not need to install anything, on any computer.**
 
-Advanced users can chose to install both R and RStudio on their comupters if they wish. Most of the code should work in the navtive installation with a few minimal change to the pre-written working directory. 
+Advanced users can chose to install both R and RStudio on their comupters if they wish. Most of the code should work in the native installation with a few minimal change to the pre-written working directory. 
 
 ---
 
