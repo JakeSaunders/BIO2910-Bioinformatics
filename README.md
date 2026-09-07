@@ -1,12 +1,22 @@
-# Unit 02 — Basics of R and R Studio
 
-## Turning them in
 
-There is no separate Word answer sheet. Your answers live in the notebook.
+## Completing and Turning in the Assignments
 
+0. To complete these assignments you will need a free google account so that you can run R code on [Google Colab](https://colab.research.google.com/). If you already have a gmail account you can use that account if you want. However, if you don't want your personal email assoicated with your work for this course you can also [create a new google account](https://support.google.com/mail/answer/56256?hl=en) to use just for this course. If for some reason you cannot make this account, see me for other (abit more complicated) options for you to complete these assignments.
+
+1. click on the **Open In Colab Button** 
+    - The first time you open Google Colab, click on the gear icon in the upper right corner to open settings
+    - Click on **AI Assistance** in the menu on the left-hand of the settings menus
+    - Make sure that the check boxes appear as below:
+        - [Unchecked] Show AI-powered inline completions
+        - [Unchecked] Consented to use generative AI features
+        - [Checked] Hide generative AI features
 1. **Runtime → Restart session and run all** — this proves your notebook runs from a clean start.
+
 2. **File → Print → Save as PDF**
 3. Upload the PDF to Canvas.
+
+# Unit 02 — Basics of R and R Studio
 
 ## Unit 02 learning objectives
 
