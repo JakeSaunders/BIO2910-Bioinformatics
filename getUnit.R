@@ -1,6 +1,6 @@
 ## getUnit() -- download one unit folder from the BIO 2910 GitHub repo.
 ## Base R only: nothing to install, no git, no GitHub account. Public repos only.
-##   getUnit("BIO2910", "Unit02")   ->  ./BIO2910/Unit02
+##   getUnit("Unit02","BIO2910")   ->  ./BIO2910/Unit02
 
 getUnit <- function( unit, # folder to pull from the repo, e.g. "Unit02"
                     dest   = "BIO2910",   # folder to put the unit into
