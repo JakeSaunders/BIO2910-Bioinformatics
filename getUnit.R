@@ -2,8 +2,8 @@
 ## Base R only: nothing to install, no git, no GitHub account. Public repos only.
 ##   getUnit("BIO2910", "Unit02")   ->  ./BIO2910/Unit02
 
-getUnit <- function(dest   = "BIO2910",   # folder to put the unit into
-                    unit,                 # folder to pull from the repo, e.g. "Unit02"
+getUnit <- function( unit, # folder to pull from the repo, e.g. "Unit02"
+                    dest   = "BIO2910",   # folder to put the unit into
                     repo   = "JakeSaunders/BIO2910-Bioinformatics",
                     branch = "main") {
 
