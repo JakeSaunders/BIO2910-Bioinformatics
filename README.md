@@ -30,7 +30,6 @@ In the **Console** (bottom left panel), run these three lines:
 ```r
 source("https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/main/getUnit.R")
 getUnit("Unit02")
-setwd("Unit02")
 ```
 
 Change `"Unit02"` to whichever unit we are on. The unit's files then appear in the **Files** panel
