@@ -332,7 +332,7 @@ ls()
 
 # Run the function below to download a large data set on finches 
 download.file(
-    url = "https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/refs/heads/main/Bio2910-Finches.csv",
+    url = "https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/refs/heads/main/data/Bio2910-Finches.csv",
     destfile = "Bio2910-Finches.csv"
     )
 
