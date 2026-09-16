@@ -50,6 +50,7 @@ This deletes your copy of that unit, so only run it if you mean it.
 | Unit | Topic | Get the files |
 |---|---|---|
 | **[Unit02](Unit02)** | Basics of R and RStudio | `getUnit("Unit02")` |
+| **[Unit03](Unit03)** | Tidyverse and ggplot | `getUnit("Unit03")` |
 
 ---
 
