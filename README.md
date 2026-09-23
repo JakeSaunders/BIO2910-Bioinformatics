@@ -51,6 +51,7 @@ This deletes your copy of that unit, so only run it if you mean it.
 |---|---|---|
 | **[Unit02](Unit02)** | Basics of R and RStudio | `getUnit("Unit02")` |
 | **[Unit03](Unit03)** | Tidyverse and ggplot | `getUnit("Unit03")` |
+| **[Unit04](Unit04)** | Linear Models | `getUnit("Unit04")` |
 
 ---
 
