@@ -4,6 +4,6 @@ source("https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/re
 getUnit("Unit05")
 ```
 
-Data for this unit provided by the [Shumskaya Lab](https://mariashumskaya.com/)
+Data for this unit provided by the [Shumskaya Lab](https://mariashumskaya.com/) via CC by 4.0 (Shumskaya & Zambell, 2019).
 
 Shumskaya, M., & Zambell, C. (2019). *NMDS to Study Dead Wood Fungi Communities in Parks of New Jersey*. NEON Faculty Mentoring Network, QUBES Educational Resources. https://doi.org/10.25334/A2ME-QH70
