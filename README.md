@@ -1,6 +1,6 @@
 # BIO 2910 — Bioinformatics
 
-### Kean University · Department of Biology · Saunders Lab
+### Kean University · Department of Biology · Dr. Saunders
 
 Course materials for BIO 2910. Every coding activity in this course runs in
 **[Posit Cloud](https://posit.cloud)** — RStudio in your web browser.
