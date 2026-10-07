@@ -6,11 +6,4 @@ getUnit("Unit05")
 
 Data for this unit provided by the [Shumskaya Lab](https://mariashumskaya.com/)
 
-@misc{shumskaya2019nmds,
-  author       = {Shumskaya, Maria and Zambell, C.},
-  title        = {NMDS to Study Dead Wood Fungi Communities in Parks of New Jersey},
-  year         = {2019},
-  publisher    = {NEON Faculty Mentoring Network, QUBES Educational Resources},
-  doi          = {10.25334/A2ME-QH70},
-  url          = {https://qubeshub.org/publications/1367/1}
-}
+Shumskaya, M., & Zambell, C. (2019). *NMDS to Study Dead Wood Fungi Communities in Parks of New Jersey*. NEON Faculty Mentoring Network, QUBES Educational Resources. https://doi.org/10.25334/A2ME-QH70
