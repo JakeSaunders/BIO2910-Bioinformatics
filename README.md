@@ -54,6 +54,7 @@ This deletes your copy of that unit, so only run it if you mean it.
 | **[Unit04](Unit04)** | Linear Models | `getUnit("Unit04")` |
 | **[Unit05](Unit05)** | Non-metric multidimensional scaling (NMDS) | `getUnit("Unit05")` |
 | **[Unit07](Unit07)** | Multiple Sequence Alignment with Python |  |
+| **[Unit08](Unit08)** | Phylogenetic Trees | `getUnit("Unit08")` |
 
 ---
 
