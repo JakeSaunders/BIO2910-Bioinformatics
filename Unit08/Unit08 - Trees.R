@@ -24,7 +24,6 @@ library(rphylopic)
 BASE <- "https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/main/data/"
 
 
-
 # =============================================================================
 # EXAMPLE 1 · Coronaviruses ----
 # =============================================================================
@@ -32,20 +31,10 @@ BASE <- "https://raw.githubusercontent.com/JakeSaunders/BIO2910-Bioinformatics/m
 ## 1.1 Load the sequences ----
 # Partial RdRp (RNA-dependent RNA polymerase) genes from coronaviruses that infect
 # different hosts. RdRp copies the viral genome, so every coronavirus has one.
-cov.url <- "https://raw.githubusercontent.com/JakeSaunders/Kean-BIO2910/main/coronaviruses_RdRp_gene.fasta"
+cov.url <- paste0(BASE, "coronaviruses_RdRp_gene.fasta")
 cov <- readDNAStringSet(cov.url)
 cov
 names(cov)
-
-## 1.2 Remove sequences that can't be aligned ----
-# Three sequences in this file can't be aligned with the others:
-#  * the two MERS sequences come from a different coronavirus gene, not RdRp
-#  * the Botryotinia (fungal) totivirus RdRp is too distantly related to line up at the DNA level
-# A sequence that can't be aligned adds noise and pulls other long branches toward it.
-# Lesson: always check that your sequences are the same gene before building a tree.
-bad <- str_detect(names(cov), "MERS|totivirus")
-names(cov)[bad]
-cov <- cov[!bad]
 
 ## 1.3 Multiple sequence alignment (Unit 07) ----
 cov.aln <- msa(cov, method = "ClustalOmega")
@@ -53,7 +42,7 @@ cov.aln
 
 ## 1.4 Distance matrix ----
 # Convert the alignment to ape's DNAbin format, then measure distances.
-# model = "K80" corrects for sites that changed more than once (see the lecture).
+# model = "K80" corrects for sites that changed more than once.
 # pairwise.deletion = TRUE ignores gaps pair by pair, because these are partial genes
 # that cover different stretches of RdRp.
 cov.dna <- msaConvert(cov.aln, type = "ape::DNAbin")
